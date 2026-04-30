@@ -28,3 +28,5 @@ Telegram bot for collecting deals from mydealz RSS feed and publishing them to a
 ```bash
 pip install -r requirements.txt
 python mydealz_bot.py
+
+Create a config file:config_mydealz.json. Then add your Telegram bot token and channel ID.
