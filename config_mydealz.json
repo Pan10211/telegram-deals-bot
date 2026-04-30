@@ -1,0 +1,5 @@
+{
+  "BOT_TOKEN": "YOUR_TELEGRAM_BOT_TOKEN",
+  "CHAT_ID": "-1001234567890",
+  "CHANNEL_USERNAME": "your_channel_name"
+}
