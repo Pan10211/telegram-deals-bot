@@ -1,21 +1,30 @@
 # Telegram Deals Bot
 
-## Description
-This project is an automated Telegram bot that collects and publishes product deals in Germany.
+Telegram bot for collecting deals from mydealz RSS feed and publishing them to a Telegram channel.
 
 ## Features
-- Collects deals
-- Processes and filters data
-- Publishes posts to a Telegram channel
-- Supports filter und search
+
+- Parses mydealz RSS feed
+- Publishes new deals to Telegram channel
+- Extracts prices, discounts and product images
+- Supports user filters by keywords
+- Allows users to search recent deals
+- Supports German, English and Russian interface
+- Stores recent posts locally for search
+- Includes error handling and automatic restart logic
 
 ## Technologies
+
 - Python
 - Telegram Bot API
-- Requests / Data processing
+- RSS / XML parsing
+- BeautifulSoup
+- BM25 search
+- RapidFuzz
+- JSON storage
 
-## Goal
-To automate deal tracking and publishing for a Telegram channel with real users.
+## How to run
 
-## Status
-In development
+```bash
+pip install -r requirements.txt
+python mydealz_bot.py
