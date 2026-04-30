@@ -1,9 +1,8 @@
 # Telegram Deals Bot
-
 Telegram bot for collecting deals from mydealz RSS feed and publishing them to a Telegram channel.
+Live Telegram Channel: https://t.me/dealcheckde
 
 ## Features
-
 - Parses mydealz RSS feed
 - Publishes new deals to Telegram channel
 - Extracts prices, discounts and product images
@@ -14,7 +13,6 @@ Telegram bot for collecting deals from mydealz RSS feed and publishing them to a
 - Includes error handling and automatic restart logic
 
 ## Technologies
-
 - Python
 - Telegram Bot API
 - RSS / XML parsing
@@ -24,7 +22,6 @@ Telegram bot for collecting deals from mydealz RSS feed and publishing them to a
 - JSON storage
 
 ## How to run
-
 ```bash
 pip install -r requirements.txt
 python mydealz_bot.py
