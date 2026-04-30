@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+python-telegram-bot
+rank-bm25
+rapidfuzz
+deep-translator
